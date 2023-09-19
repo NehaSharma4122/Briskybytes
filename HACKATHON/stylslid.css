@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#bea882;
+    color: white;
+    font-size: 2vw;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* padding:10px; */
+}
+
+.left {
+    flex: 1;
+    margin:10px;
+    padding: 20px;
+    border: 4px solid #011d3a;
+    border-style:double;
+    display: grid;
+    background-color:rgba(122, 118, 118, 0.3); 
+}
+
+h1 {
+    font-size: 20%;
+    margin: 0;
+    color: #011d3a;
+    font-size: 500%;
+    font-style:normal;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:5;
+}
+
+.about-us {
+    font-family:Arial, Helvetica, sans-serif;
+    color:white ;
+}
+.about-us p{
+    font-family:serif;
+    font-size:100%;
+    font-size: 18px;
+    margin-top: 10px;
+    color:white ;
+}
+
+.right {
+    flex: 1;
+    padding: 10px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: 85vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
