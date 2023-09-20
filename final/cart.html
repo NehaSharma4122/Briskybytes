@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+              <li><a href="#">FLASHMART</a></li>
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="order.html">ORDERS</a></li>
+              <li><a href="#">CONTACT US</a></li>
+  4            <li><a href="cart.css">CART</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Your Shopping Cart</h1>
+    <div id="cart-items">
+        <!-- Cart items will be displayed here -->
+    </div>
+    <div id="total-price">
+        Total: $0
+    </div>
+    <button id="checkout-button" onclick="checkout()">Checkout</button>
+    <button id="back-to-orders-button" onclick="backToOrders()">Back to Orders</button>
+    <script src="cart.js"></script>
+</body>
+</html>

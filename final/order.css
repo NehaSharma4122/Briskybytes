@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-color: #bea882; */
+}
+/* Style the header */
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header {
+    background-color: #15313a;
+    color: #ecd9d9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -25px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 50px;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f5e9e9;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height:200%;
+}
+
+.category {
+    /* background-color:#15313a ; */
+    text-align: center;
+    padding: 20px;
+    border: 4px double #090909;
+    border-radius: 5px;
+    width: 90%;
+    height:70%;
+    margin-bottom:20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.category h2 {
+    font-size: 24px;
+}
+
+.food-items {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+
+.food-item {
+    background-color: #15313a;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    width: 50vh;
+    height:40vh;
+    text-align: center;
+}
+
+.food-item img{
+    width: 40vh;
+    height:40vh;
+}
+.arrows {
+    margin-top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.arrow-left {
+    margin-right: 10px;
+}
+
+.arrow-right {
+    margin-left: 10px;
+}
+
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
