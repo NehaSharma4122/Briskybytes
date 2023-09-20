@@ -1,0 +1,232 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    background-color: #bea882;
+}
+
+/* Style the header */
+header {
+    background-color: #15313a;
+    color: #ecd9d9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -25px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 50px;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f5e9e9;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero-content h1 {
+    font-size: 500%;
+    margin-bottom: 20px;
+}
+.hero-content h2 {
+    font-size: 350%;
+    margin-bottom: 20px;
+}
+
+.container {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* padding:10px; */
+}
+
+
+.right {
+    flex: 1;
+    padding: 10px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: 85vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.button-bar{
+    margin-top: 20px;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #15313a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+    background-color: #246d8c;
+}
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    
+    background-color: #15313a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn2:hover {
+    background-color: #246d8c;
+}
+
+/* Style the menu section */
+.clients {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.clients h2 {
+    font-size: 30px;
+}
+
+.cli-item {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.cli-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+/* Style the about section */
+
+.food-container {
+    width: 90%;
+    height:100%;
+    margin: 0 5% 0 5%;;
+    /* overflow:visible; */
+    position: relative;
+}
+
+.food-scroll {
+    height: 70vh;
+    width:96%;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding: 2px;
+}
+
+.food-item {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.food-item img {
+    width: 50vh;
+    height: 50vh;
+}
+
+.scroll-button {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    background: #15313a;
+    color: #bea882;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#scroll-left {
+    left: 0;
+    margin-left:-5%;
+}
+
+#scroll-right {
+    right: 0;
+    margin-left: -4%;;
+}
+
+
+/* Style the contact section */
+.contact {
+    background-color: #15313a;
+    padding: 50px 0;
+    text-align: center;
+    
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
